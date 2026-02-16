@@ -7,4 +7,6 @@ else {
 console.log
 ("Sorry,underaged user")
 }
+const num = 30;
+const day = new Date;
 
