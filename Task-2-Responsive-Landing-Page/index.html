@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooms | Fresh Flowers Delivered</title>
+    <meta name="description" content="Hand-picked, fresh floral arrangements delivered to your door.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Blooms<span class="dot">.</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="features.html">Shop & Info</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="signin.html" class="btn-nav">Sign out</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <h1>Nature’s Beauty, <br> Delivered to You.</h1>
+                    <p>Hand-picked, sustainably sourced floral arrangements for every occasion. Bring life into your home today.</p>
+                    <div class="hero-buttons">
+                        <a href="features.html" class="btn btn-primary">Shop Collection</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <img src="https://plus.unsplash.com/premium_photo-1677005708723-c0dabb815e4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyJTIwYm91cXVldHxlbnwwfHwwfHx8MA%3D%3D" 
+                    alt="A vibrant bouquet of fresh spring flowers with soft lighting">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Blooms?</h2>
+                    <p>We go beyond just selling flowers.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card scroll-reveal">
+                        <div class="icon-box">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sustainably Sourced</h3>
+                        <p>We partner with local farmers who prioritize eco-friendly growing practices.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="icon-box">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3>Same Day Delivery</h3>
+                        <p>Order before 2 PM and get your arrangement delivered fresh the same day.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="icon-box">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Custom Designs</h3>
+                        <p>Work with our florists to create a unique bouquet that fits your specific vision.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-image scroll-reveal">
+                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Florist arranging flowers">
+                </div>
+                <div class="about-content scroll-reveal">
+                    <h2>Rooted in Passion</h2>
+                    <p>Blooms began with a simple idea: flowers should evoke emotion. We aren't just a shop; we are a team of passionate artists dedicated to capturing the fleeting beauty of nature.</p>
+                    <p>Every stem is inspected for quality, ensuring that your bouquet lasts longer and looks brighter.</p>
+                    <a href="#features" class="text-link">See our process &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="signup" class="signup">
+            <div class="container signup-container">
+                <div class="form-wrapper scroll-reveal">
+                    <h2>Join the Bloom Club</h2>
+                    <p>Get 10% off your first order and weekly floral inspiration.</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <div class="input-group">
+                            <label for="name" class="sr-only">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" class="sr-only">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Blooms.</h3>
+                <p>Bringing nature home.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;Eduaina 2025 Blooms Flower Service. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

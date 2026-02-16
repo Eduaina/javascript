@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooms | Create Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="auth-body">
+
+    <header style="padding: 1rem; position: absolute; top:0; width: 100%;">
+         <a href="index.html" class="logo">Blooms.</a>
+    </header>
+
+    <main class="auth-container fade-in-section">
+        <div class="auth-box">
+            <h2>Create Account</h2>
+            <p>Join Blooms for exclusive offers.</p>
+
+            <form id="signup-form" class="signup-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required minlength="6">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+            </form>
+            <div class="auth-footer">
+                <p>Already have an account? <a href="signin.html">Sign In</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/auth.js"></script>
+</body>
+</html>
